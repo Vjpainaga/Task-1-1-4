@@ -1,0 +1,36 @@
+//TIP To <b>Run</b> code, press «shortcut actionId="Run"/> o
+// click the «icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+public static void main(String[] args) f
+int[]
+studentMarks = {100, 90, 80, 70, 60}:
+for (int marks: studentMarks) {
+char grade = calculateGrade(marks);
+System.out.println("A score of" + marks +
+•" + studentMarks + " gets grade" + grade);
+public
+static char calculateGrade(int marks) {
+if
+(marks >= 90) €
+return
+'A';
+}
+else if (marks >= 80) f
+return 'B'
+} else if
+(marks >= 70) €
+return
+'C';
+else
+if
+（marks >=
+60)
+20
+return
+'D';
+21
+｝
+else {
+22
+return
+'F':
